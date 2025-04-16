@@ -15,7 +15,7 @@ public class Quiz2 extends AppCompatActivity {
     RadioButton rb;
     Button bNext;
     int score;
-    String RepCorrect="À droite";
+    String RepCorrect="Microsoft 365";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

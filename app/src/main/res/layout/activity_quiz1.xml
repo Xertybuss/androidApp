@@ -31,24 +31,13 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <TextView
-                    android:id="@+id/quizTitle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/quiz_header_background"
-                    android:gravity="center"
-                    android:padding="12dp"
-                    android:text="Quiz 1"
-                    android:textColor="@color/white"
-                    android:textSize="22sp"
-                    android:textStyle="bold" />
-
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="520px"
                     android:layout_marginTop="16dp"
                     app:cardCornerRadius="12dp"
-                    app:cardElevation="2dp">
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/white">
 
                     <ImageView
                         android:id="@+id/quizImage"
@@ -56,7 +45,7 @@
                         android:layout_height="match_parent"
                         android:contentDescription="Road sign showing curves"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/q1" />
+                        android:src="@drawable/quiz1" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <TextView
@@ -66,7 +55,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginBottom="16dp"
                     android:gravity="start"
-                    android:text="A cette intersection, je laisse la priorité à droite :"
+                    android:text="Which Javascript framework or library is primarily used for web development on the server side :"
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -77,35 +66,18 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp">
 
-                    <com.google.android.material.card.MaterialCardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="12dp"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="2dp"
-                        app:strokeColor="@color/option_stroke"
-                        app:strokeWidth="1dp">
 
                         <RadioButton
                             android:id="@+id/rb1"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:background="@drawable/radio_selector"
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Vrai"
+                            android:text="Node JS"
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
-                    </com.google.android.material.card.MaterialCardView>
-
-                    <com.google.android.material.card.MaterialCardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="2dp"
-                        app:strokeColor="@color/option_stroke"
-                        app:strokeWidth="1dp">
 
                         <RadioButton
                             android:id="@+id/rb2"
@@ -115,10 +87,33 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Faux"
+                            android:text="JQuery"
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
-                    </com.google.android.material.card.MaterialCardView>
+
+                        <RadioButton
+                            android:id="@+id/rb3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/radio_selector"
+                            android:button="@null"
+                            android:drawableEnd="@drawable/radio_button_custom"
+                            android:padding="16dp"
+                            android:text="Express JS"
+                            android:textColor="@color/text_primary"
+                            android:textSize="16sp" />
+
+                        <RadioButton
+                            android:id="@+id/rb4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/radio_selector"
+                            android:button="@null"
+                            android:drawableEnd="@drawable/radio_button_custom"
+                            android:padding="16dp"
+                            android:text="HTMX"
+                            android:textColor="@color/text_primary"
+                            android:textSize="16sp" />
                 </RadioGroup>
 
                 <TextView

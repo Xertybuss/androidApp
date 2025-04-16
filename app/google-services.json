@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983824324513",
+    "project_id": "quizappsamsari",
+    "storage_bucket": "quizappsamsari.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983824324513:android:2afa04928719d25ba51de0",
+        "android_client_info": {
+          "package_name": "com.example.quizapp_samsari"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEZoSadMX8Ixqyq9cPM4eYqakmbBxC-0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
