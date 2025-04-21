@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Quiz2">
+    tools:context=".Quiz1">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/quizCard"
@@ -42,10 +42,9 @@
                     <ImageView
                         android:id="@+id/quizImage"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:contentDescription="Road sign showing curves"
+                        android:layout_height="200dp"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/quiz1" />
+                        android:src="@drawable/ic_launcher_foreground" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <TextView
@@ -55,7 +54,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginBottom="16dp"
                     android:gravity="start"
-                    android:text="Which Javascript framework or library is primarily used for web development on the server side :"
+                    android:text=""
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -75,7 +74,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Node JS"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
 
@@ -87,7 +86,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="JQuery"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
 
@@ -99,7 +98,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Express JS"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
 
@@ -111,7 +110,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="HTMX"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
                 </RadioGroup>

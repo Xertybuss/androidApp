@@ -44,7 +44,7 @@
                         android:layout_height="200dp"
                         android:contentDescription="Road sign showing curves"
                         android:scaleType="fitCenter"
-                        android:src="@drawable/quiz2" />
+                        android:src="@drawable/ic_launcher_foreground" />
                 </com.google.android.material.card.MaterialCardView>
 
                 <TextView
@@ -54,7 +54,7 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginBottom="16dp"
                     android:gravity="start"
-                    android:text="Which of the following is a Software-as-a-Service :"
+                    android:text=""
                     android:textColor="@color/text_primary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -73,7 +73,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Microsoft Azure Virtual Machines"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
 
@@ -85,7 +85,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Amazon Web Services"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
 
@@ -97,7 +97,7 @@
                             android:button="@null"
                             android:drawableEnd="@drawable/radio_button_custom"
                             android:padding="16dp"
-                            android:text="Microsoft 365"
+                            android:text=""
                             android:textColor="@color/text_primary"
                             android:textSize="16sp" />
                      <RadioButton
@@ -108,7 +108,7 @@
                         android:button="@null"
                         android:drawableEnd="@drawable/radio_button_custom"
                         android:padding="16dp"
-                        android:text="Microsoft Azure App Service"
+                        android:text=""
                         android:textColor="@color/text_primary"
                         android:textSize="16sp" />
 
