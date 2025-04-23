@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(MainActivity.this, Quiz1.class));
+                                    startActivity(new Intent(MainActivity.this, QuizActivity.class));
                                     finish();
                                 } else {
                                     Toast.makeText(MainActivity.this, "Login failed: " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
